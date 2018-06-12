@@ -20,10 +20,11 @@ aria-expanded="false">
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
 </button>
-<a class="navbar-brand" href="#">InputView</a>
+<a class="navbar-brand" href="#">Input</a>
 </div>
 </nav>
 
+<form method="post" action="input.do">
 <div class="container bootstrap snippet">
 <div class="row">
 <div class="form-group col-xs-10">
@@ -38,6 +39,6 @@ aria-expanded="false">
 <div class="form-group col-xs-2">
 <button id="action" class="btn btn-default">클릭</button>
 </div></div>
-
+</form>
 </body>
 </html>
